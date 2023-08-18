@@ -1,4 +1,54 @@
 # RISC-V
+
+<details>
+<summary>Installation steps</summary>
+Below are the steps and commands to install risc-v toolchain
+
+```bash
+git clone https://github.com/kunalg123/riscv_workshop_collaterals.git
+cd riscv_workshop_collaterals
+chmod 755 run.sh
+./run.sh
+```
+Once the cloning is done and if there is not any error then set the PATH variable in 
+.bashrc file using below commands
+
+```
+gedit .bashrc
+export PATH="/home/user/riscv_toolchain/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14/bin:$PATH" #Instead of user replace it with your user name
+```
+Now try the "riscv64-unknown-elf-gcc" command and if there is any error shows below 
+is how to debug: If you are getting the error about "iverilog" then use below commands
+
+```
+sudo apt-get install libboost-regex-dev
+git clone https://github.com/steveicarus/iverilog.git
+cd iverilog/
+git checkout --track -b v10-branch origin/v10-branch
+git pull 
+chmod 777 autoconf.sh 
+./autoconf.sh 
+./configure 
+make
+sudo make install 
+```
+
+If you are getting the error about "riscv-pk" then use below commands
+
+```
+sudo apt-get install libboost-regex-dev
+git clone https://github.com/riscv/riscv-pk.git
+cd riscv-pk/
+mkdir build
+cd build/
+../configure --prefix=$pwd/riscv_toolchain/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14 --host=riscv64-unknown-elf
+make
+sudo make install
+```
+
+Don't forget to add PATH in .bashrc and source the .bashrc file
+</details>
+
 ## Day 1
 
 <details>
