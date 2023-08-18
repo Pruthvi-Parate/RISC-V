@@ -29,3 +29,7 @@ The number of bits determines the range of values that can be represented. For a
 
 
 </details>
+
+[Reference Section]:#
+## References
+1. https://github.com/kunalg123/riscv_workshop_collaterals
