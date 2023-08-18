@@ -48,7 +48,7 @@ sudo make install
 
 Don't forget to add PATH in .bashrc and source the .bashrc file  
   
-Acknowledgement : Bhargav D V , Colleauge(IIIT-B)
+Acknowledgement : Bhargav D V , Alwin Shaju, Emil Jayanth Lal, Kanish R, Divyam Satle : Colleauges(IIIT-B)
 </details>
 
 ## Day 1
