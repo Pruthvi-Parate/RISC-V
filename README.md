@@ -46,7 +46,9 @@ make
 sudo make install
 ```
 
-Don't forget to add PATH in .bashrc and source the .bashrc file
+Don't forget to add PATH in .bashrc and source the .bashrc file  
+  
+Acknowledgement : Bhargav D V , Colleauge(IIIT-B)
 </details>
 
 ## Day 1
