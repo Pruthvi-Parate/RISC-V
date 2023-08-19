@@ -84,6 +84,54 @@ The number of bits determines the range of values that can be represented. For a
 
 </details>
 
+<details><summary>RISCV gcc compilation and assembly </summary>
+Below is the command to compile the c code through riscv compiler
+
+```
+riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o 1ton.o 1ton.c
+```
+
+![sum1ton-main](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/edfbdff1-45c6-4db7-9cf6-28a8e9032aae)
+
+![sum1ton](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/f1bab766-3da2-48b3-8210-c1a73bffecfa)
+
+![Ofast](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/3a807239-f7b1-4966-9124-6b456c69eb77)
+
+
+Below command is to observe the result
+
+```
+riscv64-unknown-elf-objdump -d 1ton.o
+```
+Get the output file using spike  
+Below is the command to get the object output
+```
+spike pk 1ton.o
+```
+
+![1ton-spikepk](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/fdcd8d89-d12f-4b7f-afe6-8f196b56b8d2)
+
+To debug the output 
+
+```
+spike -d pk 1ton.o
+```
+
+Now to observe the file and memory locations use following commands  
+
+```
+until pc 0 100b0
+reg 0 a1
+```
+![untilpc](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/2f088c10-49c0-4222-ac17-2ada219c8a95)
+
+Below is the architecture
+
+![pk-arch](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/477726ca-94cb-4642-b5bd-71f29fece4c5)
+
+
+</details>
+
 [Reference Section]:#
 ## References
 1. https://github.com/kunalg123/riscv_workshop_collaterals
