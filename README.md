@@ -76,6 +76,8 @@ The number of bits determines the range of values that can be represented. For a
 
 ![image](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/4e73d6a2-81c4-4d20-95dd-9470f66f36c6)
 
+![unsignrisc](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/5a1d03a5-585e-4e68-bf8f-74ee436b1786)
+
 
 64-bit signed number system: The 64-bit signed number system is another crucial aspect of computer science and digital systems. It's an extension of the 64-bit unsigned number system that allows the representation of both positive and negative integers using binary digits. In this system, the leftmost bit (most significant bit) is used as the sign bit, determining whether the number is positive or negative. The remaining 63 bits represent the magnitude of the number.
 
