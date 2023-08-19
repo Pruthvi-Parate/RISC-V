@@ -134,6 +134,75 @@ Below is the architecture
 
 </details>
 
+## Day 2
+
+<details><summary>Application Binary Interface
+</summary>
+Application binary interface (ABI) is an interface between two binary program modules. Often, one of these modules is a library or operating system facility, and the other is a program that is being run by a user.  
+  
+An ABI defines how data structures or computational routines are accessed in machine code, which is a low-level, hardware-dependent format. In contrast, an application programming interface (API) defines this access in source code, which is a relatively high-level, hardware-independent, often human-readable format. A common aspect of an ABI is the calling convention, which determines how data is provided as input to, or read as output from, computational routines.  
+
+Here below shown the diagram
+
+![ABI](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/81e17793-c86e-476b-be5b-7c8cb6dd9b74)
+
+![thisisABI](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/f5811a26-4fe6-4332-b6d3-acf3e147a1b1)
+
+
+Memory allocation for double words typically involves reserving contiguous blocks of memory in a computer's RAM (Random Access Memory) to store data that is twice the size of a standard word, which is often 32 bits or 4 bytes on many computer architectures. Double words are typically 64 bits or 8 bytes in size. This allocation process is fundamental in computer programming, as it allows for the efficient storage and manipulation of larger data structures and numeric values, such as long integers or floating-point numbers with higher precision. When allocating memory for double words, it's essential to ensure proper alignment, so the memory addresses are consistent with the system's architecture, as misaligned memory access can result in performance penalties or even program crashes.  
+
+![ABI-registers](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/3ee1b562-6e89-4ab6-8268-33838c825a93)
+
+Load and store single register instructions can transfer a 32-bit word, a 16-bit halfword, or an 8-bit byte between memory and a register. Byte and halfword loads can be automatically zero extended or sign extended as they are loaded.
+
+Load and store instructions have three primary addressing modes:
+  
+offset
+  
+pre-indexed
+  
+post-indexed.
+  
+The address is formed by adding or subtracting an immediate or register- based offset to or from a base register. Register-based offsets can also be scaled with shift operations. Pre-indexed and post-indexed addressing modes update the base register with the result of the offset calculation.
+
+Below shown the representation 
+
+![load](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/2c9b3151-1d3c-4c6f-98f6-78760cc46bef)
+
+![add](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/4bebbace-7d9f-4ef3-8381-84fa88e5d941)
+
+![store](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/fe8782e7-d3ca-4164-9cf7-f356a821dcc5)
+
+
+</details>
+<details>
+  <summary>ABI function cells</summary>
+
+Below is the custom file: 
+
+![custom-main](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/97a2eca9-5150-47c3-a8df-bfb974804300)
+
+Below is the objdump:
+
+![objdump](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/d9a7d029-3037-4326-9219-22d65822386d)
+
+Below is using spike command: 
+
+![spike1to9](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/cfd9cf42-d77c-4024-b323-8d0405495e9f)
+
+![firmwarehex](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/b7596c64-19d4-487a-bdbf-4ba95855cbae)
+
+Below is another method command:
+
+![rv32im](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/44fba369-9ac0-43e1-8177-932378b42152)
+
+Below is the conclusion: 
+
+![conclusion1](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/186ae721-39f1-489b-b866-4d9a178030dc)
+
+
+</details>
+
 [Reference Section]:#
 ## References
 1. https://github.com/kunalg123/riscv_workshop_collaterals
