@@ -46,6 +46,8 @@ make
 sudo make install
 ```
 
+If there is error showing that "Spike-command is not found" when running the spike, Try running run.sh again , it will be resolved.  
+
 Don't forget to add PATH in .bashrc and source the .bashrc file  
   
 Acknowledgement : Bhargav D V , Alwin Shaju, Emil Jayanth Lal, Kanish R, Divyam Satle : Colleauges(IIIT-B)
