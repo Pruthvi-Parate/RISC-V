@@ -306,8 +306,53 @@ Below is makerchip implementation of counter calculator:
 
 ![countcalccode](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/696755f0-dbda-45f3-9b61-249542d928d5)
 
+Below is makerchip implementation of two cycle calculator: 
+
+![2cyclecalc](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/f82547c7-41d4-4597-ab57-a783835ede09)
+
 
 </details>
+
+<details><summary>Validity</summary>
+
+![image](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/88fe97ed-2f16-4c29-a40a-ac3647edc20d)
+
+Below shown diagram of total distance calculator: 
+
+![image](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/e8305d16-7591-4492-b5f5-360431bb7b72)
+
+Below is makerchip implementation of total_dist calculator:  
+
+![total_dist](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/2baec529-40f0-4a49-9864-1669f6dfba37)
+
+Below shown makerchip implementaion of pythagorans thm validity:  
+
+![Valditypythagor-pipelined](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/82073eda-dac3-400c-b3f6-839296dad84a)
+
+
+Below shown the structure of the two cycle calculator with validity:  
+
+![image](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/272c5fce-15bf-45f3-a1aa-9ec8fcc8ee3b)
+
+And below is its makerchip implementation:  
+
+![valdity2-cycle](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/f28892d0-99ce-46b2-8bfb-c554864ab8a0)
+
+Below shown the structure of the calculator with single value memory :  
+
+![image](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/0b46c36a-a5c2-4a02-b39f-57b227769ccf)
+
+And below is it's makerchip implementation:  
+
+![single-memory](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/4b360d0e-f437-48ae-975a-a71da4b389cc)
+
+Below is makerchip implementation of Conway's Game of Life :  
+
+![conways game of life](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/88e04801-4e0b-404d-8c13-a7bd0a1b1086)
+
+
+</details>
+
 [Reference Section]:#
 ## References
 1. https://github.com/kunalg123/riscv_workshop_collaterals
