@@ -363,6 +363,14 @@ The term architecture describes the functional specification of a processor. It 
   
   ![Microarch](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/bc5ad178-b926-48da-9937-bafc014ece78)
 
+  ![image](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/e9e804b1-f584-4003-970a-fb4a5615c941)
+
+Below is makerchip implementation:  
+
+![top_cpu](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/9c35f02a-536b-4960-bec1-1927fb6bf587)
+
+
+
 </details>
 
 [Reference Section]:#
