@@ -267,6 +267,47 @@ Below is sequential calculator:
 
 </details>
 
+<details><summary>Pipelined Logic</summary>
+
+Below shown pipeline logic:  
+
+![pipelinelogic](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/c6205460-b625-45c3-88ec-0a4aff90e960)
+
+Below is pythagorans thm makerchip implementation:  
+
+![pythagor-thm](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/840a6611-29f8-4c3b-bec3-432682bf6561)
+
+Here below shown errorpipe implementation :  
+
+![Errorpipe](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/db2d409b-bbb6-4eca-8097-e6e01c6dafcd)
+
+
+Here is difference between TL-verilog and system verilog representation whish shows code reduction:  
+
+![TL-Systemveri](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/7a37e34d-ed16-41e2-94f6-38d091e54eed)
+
+Here below shown diagram Fibonacci in a pipeline :  
+
+![fibbpipe](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/ac777063-87d4-4e51-b020-4337457e869d)
+
+Below is makerchip implementation:  
+
+![fibbocode](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/9c043ba1-96d0-4bb7-878a-b430781639ab)
+
+Below is Counter and Calculator in pipeline:  
+
+![countcalc](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/5646b4bf-d5b6-4c06-b37e-5c6f5ed88d3f)
+
+Below shown cyclic calculator diagram:  
+
+![cycliccalc](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/2690964f-2536-467a-b6a8-dc995616f45b)
+
+Below is makerchip implementation of counter calculator:  
+
+![countcalccode](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/696755f0-dbda-45f3-9b61-249542d928d5)
+
+
+</details>
 [Reference Section]:#
 ## References
 1. https://github.com/kunalg123/riscv_workshop_collaterals
