@@ -203,6 +203,70 @@ Below is the conclusion:
 
 </details>
 
+## Day 3 (Digital Logic with TL-Verilog and Makerchip)
+
+<details><summary>Combinational logic in TL-Verilog using Makerchip</summary>
+Below shown logic gates representation and their truth tables
+
+![image](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/d78dcd40-5703-4c95-96b0-7257bc2e5b24)
+
+Consider below full adder circuit which shows interconnection of logic gates to get the output S(sum) and Cout
+
+![image](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/54cf8cb5-7e8a-4f0a-b3f9-008c4fd06735)
+
+Below shown representation of boolean operators:  
+
+![image](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/318c3594-331a-4c81-9451-e21115f16593)
+
+To write code of mux in verilog 
+
+```
+assign f = s ? x1 : x2;
+```
+
+**Makerchip IDE**  
+Go to the makerchip.com there are several examples below shown some of the examples  (**Combinational logic**)
+Below shown multiplexer  
+
+![mux](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/68b292bb-9e27-419e-932d-575375805237)
+
+Below shown FPGA multiplier:  
+
+![fpga-mult](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/3e63ff17-0d9c-47f0-95a0-32a2bd1492d2)
+
+Below shown ripple carry :  
+
+![ripplecarry](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/1e71e8cc-b3c1-4822-88a1-bf771daf6925)
+
+Below is adder:  
+
+![adder](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/be99b02b-56b6-4fe0-86e5-589f821b6ac7)
+
+</details>
+
+<details><summary>Sequential circuits</summary>
+ Sequential circuits are digital circuits that store and use the previous state information to determine their next state.  
+
+    
+ Sequential circuits are commonly used in digital systems to implement state machines, timers, counters, and memory elements. The memory elements in sequential circuits can be implemented using flip-flops, which are circuits that store binary values and maintain their state even when the inputs change.  
+
+  ![image](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/c0172920-48bb-462a-9c72-7e1bed0497dc)
+
+Below shown makerchip of fibonacci series:  
+
+![fibbonaci](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/a5ed1ba0-2dcf-4143-b602-7605366e3df6)
+
+Below is the representation of counter: 
+
+![counter](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/9b1e1876-641f-4d88-bf31-2b5a865d79e1)
+
+Below is sequential calculator:  
+
+![seqcalc](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/84ee72d0-9c9b-48cb-ac7e-20757675264f)
+
+
+</details>
+
 [Reference Section]:#
 ## References
 1. https://github.com/kunalg123/riscv_workshop_collaterals
