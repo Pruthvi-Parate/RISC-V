@@ -353,6 +353,19 @@ Below is makerchip implementation of Conway's Game of Life :
 
 </details>
 
+## Day 4 (Basic RISC-V CPU micro-architecture)
+
+<details><summary>Introduction</summary>
+  
+The term architecture describes the functional specification of a processor. It describes what functionality the software can rely on the hardware to provide. Architecture does not tell you how a processor is built. It tells you what a processor can do. Micro-architecture on the other hand describes how a processor is built and designed. Micro-architecture defines, the number and size of caches, cycle counts of instructions, pipeline length, and more.
+
+  Below shown micro-architecture: 
+  
+  ![Microarch](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/bc5ad178-b926-48da-9937-bafc014ece78)
+
+</details>
+
 [Reference Section]:#
 ## References
 1. https://github.com/kunalg123/riscv_workshop_collaterals
+2. https://github.com/RISCV-MYTH-WORKSHOP/RISC-V-CPU-Core-using-TL-Verilog.git
