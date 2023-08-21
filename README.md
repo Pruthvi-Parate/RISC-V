@@ -388,8 +388,24 @@ Below shown diagram of instruction Decode where ALU RF read and RF write is ther
 
 ![instruct-decode](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/b5d50541-2d9a-4576-8207-bcb41889328e)
 
+Below showed complet circled instructions: 
+
+![decodeIndInstruct](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/6424be25-ce86-48c6-aafc-07baadc7ba69)
+
+Here is instr[6:2] determine instruction type which are I, R, S, B, J, U: 
+
+![instruction_decode2](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/50906c44-be78-4fe5-b15d-55e1fb437623)
+
+
+Below is makerchip implementation:
+
+![decodeinstruct2](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/f1be9023-7f27-4f9f-a301-ce748901f314)
+
 
 </details>
+
+<details><summary>Control logic</summary></details>
+
 [Reference Section]:#
 ## References
 1. https://github.com/kunalg123/riscv_workshop_collaterals
