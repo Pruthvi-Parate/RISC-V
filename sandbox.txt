@@ -1,3 +1,15 @@
+fibonacci:  https://makerchip.com/sandbox/0xkfJh8Qk/01jh75#
+
+Counter: https://makerchip.com/sandbox/0xkfJh8Qk/0Z4h3O
+
+Combinational calculator:  https://makerchip.com/sandbox/0n5fGh9Ag/0Y6hz0
+
+Sequential Calculator:  https://makerchip.com/sandbox/0gJflhN0E/0Q1hx0
+
+Counter and calculator : https://makerchip.com/sandbox/0gJflhN0E/0GZhgl
+
+pipelined fibonacci: https://makerchip.com/sandbox/0gJflhN0E/0y8hnG#
+
 pythagorean pipelined: https://makerchip.com/sandbox/0zpfRh4PQ/048hy9
 
 2-cycle calc: https://makerchip.com/sandbox/0zpfRh4PQ/058hox
