@@ -485,6 +485,8 @@ Below is its makerchip implementation:
 
 </details>
 
+## Day 5 (Complete Pipelined RISCV CPU micro-arch)
+
 [Reference Section]:#
 ## References
 1. https://github.com/kunalg123/riscv_workshop_collaterals
