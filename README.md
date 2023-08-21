@@ -455,6 +455,33 @@ Below is its makerchip implementation:
 
 ![RegWritecode](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/d53b8b25-970d-4637-9efd-5957d7bad1b7)
 
+Now lets start with Branch instruction and to understand see below diagrams:  
+
+![BranchInstruct](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/7a1a71fe-acf6-456e-a675-a9d769e3b0a1)
+
+Below is its makerchip implementation:  
+
+![BranchInstruct1](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/e5ab030f-a353-471d-9927-f515b162a1da)
+
+
+![BranchIns2Diag](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/9360b89b-286b-4b17-abc0-5a4f97a62f35)
+
+Makerchip implementation:  
+
+![BranchInstruct2](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/5ac2b227-36ad-41e7-8b7c-9cc8a64579ea)
+
+Now lets see about testbench:  
+
+```
+*passed = |cpu/xreg[10]>>5$value == (1+2+3+4+5+6+7+8+9);
+```
+
+![Infotestbench](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/46d3c1ef-0b38-458f-a663-70c763f5d923)
+
+Below is its makerchip implementation:  
+
+![testbench](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/94f7927e-6511-44c5-8311-0e219b034572)
+
 
 </details>
 
