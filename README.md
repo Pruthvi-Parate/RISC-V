@@ -376,6 +376,11 @@ Below is makerchip implementation:
 </details>
 <details><summary>Instruction Fetch and Decode</summary>
 
+Below is startpoint: 
+
+![startpoint1](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/fff99b07-c8ff-4e67-97c0-0c39665dc0c3)
+
+
 Below is makerchip implementation of Instruction fetch:
 
 ![logic-fetch1](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/f1b55f1b-d166-4178-92ca-053dbc21cc8d)
@@ -401,10 +406,57 @@ Below is makerchip implementation:
 
 ![decodeinstruct2](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/f1be9023-7f27-4f9f-a301-ce748901f314)
 
+Below shown immediate decode logic makerchip implementation: 
+
+![decodeinstruct(immediate)](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/20b3a216-de02-4a14-a028-10aa6ab5e2cf)
+
+Decode other fields of instructions :   
+Here below shown I, S, B , U, J-immediate instruction in below diagram:
+  
+
+![decode-other-fields](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/d253e64b-cf6a-4df4-afdf-4b1185daec44)
+
 
 </details>
 
-<details><summary>Control logic</summary></details>
+<details><summary>Control logic</summary>
+Here below shown register file read diagram:
+  
+![regFileRead](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/9ce4bba5-1e99-48da-be9a-4301f6a260be)
+
+![diagRegFileRead](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/c506597b-69a9-4e85-ab47-3b893a0649f1)
+
+Below shown makerchip implementation:  
+
+![regRead1](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/98beda1e-5d10-4206-b187-74aace04256f)
+
+Here is register read file2 : 
+
+![Regreadpart2](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/5e9ad605-4716-418c-8fdd-28e2e86dbe5d)
+
+Below its makerchip implementation:  
+
+![regRead2](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/1299c6a7-fea2-42e1-8fb7-14694f4e79ca)
+
+Below shown ALU diagram for operation add/addi:  
+
+![AluDiag](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/20f733df-3ec9-41e5-a263-9d0cdd02240d)
+
+And below is its makerchip implementation:  
+
+![AluImplem](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/bbb72830-f192-4ab1-944a-cb37e0dcfa00)
+
+Here is reg file write diagram:  
+
+![RegFileWrite](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/4d7012a6-5c16-4b3a-b30a-dcd3204e1fe5)
+
+
+Below is its makerchip implementation:  
+
+![RegWritecode](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/d53b8b25-970d-4637-9efd-5957d7bad1b7)
+
+
+</details>
 
 [Reference Section]:#
 ## References
