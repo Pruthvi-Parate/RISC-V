@@ -16,6 +16,8 @@ Once the cloning is done and if there is not any error then set the PATH variabl
 ```
 gedit .bashrc
 export PATH="/home/user/riscv_toolchain/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14/bin:$PATH" #Instead of user replace it with your user name
+#save and close the bashrc
+source .bashrc
 ```
 Now try the "riscv64-unknown-elf-gcc" command and if there is any error shows below 
 is how to debug: If you are getting the error about "iverilog" then use below commands
