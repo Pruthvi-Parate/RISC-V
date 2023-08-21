@@ -374,7 +374,22 @@ Below is makerchip implementation:
 
 
 </details>
+<details><summary>Instruction Fetch and Decode</summary>
 
+Below is makerchip implementation of Instruction fetch:
+
+![logic-fetch1](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/f1b55f1b-d166-4178-92ca-053dbc21cc8d)
+
+Below is instruction fetch logic2: 
+
+![logic-fetch2](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/5068305e-0cd2-4b70-a309-bf8b33ed523f)
+
+Below shown diagram of instruction Decode where ALU RF read and RF write is there: 
+
+![instruct-decode](https://github.com/Pruthvi-Parate/RISC-V/assets/72121158/b5d50541-2d9a-4576-8207-bcb41889328e)
+
+
+</details>
 [Reference Section]:#
 ## References
 1. https://github.com/kunalg123/riscv_workshop_collaterals
