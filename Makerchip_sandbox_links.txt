@@ -43,3 +43,9 @@ BranchInstruct:  https://makerchip.com/sandbox/0n5fGh9Ag/0VmhDM
 BranchInstruct2: https://makerchip.com/sandbox/0n5fGh9Ag/0WnhAv
 
 testbench: https://makerchip.com/sandbox/0n5fGh9Ag/0X6hx7
+
+Day5 pipelining: https://makerchip.com/sandbox/0L9fPhB8D/0k5hM9
+
+load-store: https://makerchip.com/sandbox/0L9fPhB8D/0lOhB4#
+
+final: https://makerchip.com/sandbox/0L9fPhB8D/0mwhmN#
